@@ -1,0 +1,76 @@
+name: Add Article from Issue
+
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  process-article:
+    if: |
+      contains(github.event.issue.labels.*.name, 'article') || 
+      startsWith(github.event.issue.title, 'Add Article') ||
+      startsWith(github.event.issue.title, 'add article')
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Run scraper script
+        id: scrape
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
+        run: |
+          # Run the script and capture the comment output
+          python scripts/add_article.py > comment_body.txt 2> error.log || {
+            cat error.log
+            exit 1
+          }
+          
+          # Print output to runner logs
+          cat comment_body.txt
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/data/articles.json research/
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-add article: ${{ github.event.issue.title }} [skip ci]"
+            git push
+          fi
+
+      - name: Post comment and close issue
+        run: |
+          # Extract only the markdown portion for the comment
+          sed -n '/--- ACTION OUTPUT FOR GITHUB COMMENT ---/,$p' comment_body.txt | tail -n +2 > comment.md
+          
+          if [ -s comment.md ]; then
+            gh issue comment ${{ github.event.issue.number }} --body-file comment.md
+          else
+            gh issue comment ${{ github.event.issue.number }} --body "Failed to format comment output."
+          fi
+          
+          gh issue close ${{ github.event.issue.number }}

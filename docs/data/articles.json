@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Agent-Based Modeling for Groundwater Management",
+    "url": "https://example.com/abm-groundwater",
+    "site_name": "ResearchGate",
+    "description": "An interactive framework where heterogeneous agents (farmers and water authorities) make decisions about aquifer pumping, exploring the tragedy of the commons in groundwater usage.",
+    "image": "",
+    "date_published": "2026-01-15",
+    "date_added": "2026-06-01",
+    "notes_file": "research/agent-based-modeling-for-groundwater-management.md",
+    "tags": [
+      "modeling",
+      "groundwater"
+    ]
+  }
+]

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Of Agents and Aquifers // Research Dashboard</title>
+  <meta name="description" content="A curated research archive exploring the intersection of autonomous AI agents, groundwater aquifers, and water systems.">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Favicon placeholder (Uses SVG) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💧</text></svg>">
+</head>
+<body>
+
+  <!-- Background decorative glow -->
+  <div class="header-accent-glow"></div>
+
+  <!-- Header -->
+  <header>
+    <h1>Of Agents and Aquifers</h1>
+    <p class="subtitle">A curated database mapping the integration of autonomous agents, hydraulic models, and groundwater aquifer resources.</p>
+  </header>
+
+  <!-- Control Panel: Filter Tools & Bookmarklet -->
+  <section class="tools-panel">
+    
+    <!-- Left: Search & Filter Tag Card -->
+    <div class="card" id="search-filter-card">
+      <h2>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:22px; height:22px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+        </svg>
+        Filter Research
+      </h2>
+      <div class="search-container">
+        <div class="search-input-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+          </svg>
+          <input type="text" id="search-input" class="search-input" placeholder="Search by title, source, description, tags...">
+        </div>
+        <div id="tags-list" class="tags-list">
+          <!-- Populated dynamically via JS -->
+          <button class="tag-btn active">All Articles</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Bookmarklet Automation Card -->
+    <div class="card" id="bookmarklet-card">
+      <h2>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:22px; height:22px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+        </svg>
+        Add Web Articles
+      </h2>
+      <div class="bookmarklet-setup">
+        <div class="setup-input-group">
+          <label for="repo-input">Your GitHub Repo (Owner/Repo):</label>
+          <input type="text" id="repo-input" class="setup-input" placeholder="e.g. username/repo-name">
+        </div>
+        <div class="bookmarklet-btn-wrapper">
+          <a href="#" id="bookmarklet-link" class="bookmarklet-link" title="Drag me to your bookmarks bar">💧 Add to Aquifers</a>
+          <button id="copy-bookmarklet" class="copy-btn">Copy Bookmarklet Code</button>
+        </div>
+        <p class="helper-text">
+          <strong>How it works:</strong> Drag the button above to your bookmarks bar. 
+          When you view any article online, click the bookmark. It opens a prefilled GitHub issue page. 
+          Click "Submit", and a GitHub Action automatically scrapes the details, creates markdown study notes, and updates this page.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Main Section: Grid list of articles -->
+  <main>
+    <div class="dashboard-header">
+      <h2>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:22px; height:22px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-.778.099-1.533.284-2.253" />
+        </svg>
+        Research Archive
+      </h2>
+      <span id="results-count" class="results-count">Loading articles...</span>
+    </div>
+
+    <!-- Dynamic Grid -->
+    <div id="articles-grid" class="grid-container">
+      <!-- Populated dynamically via JS -->
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      &copy; 2026 Of Agents and Aquifers. Powered by GitHub Actions. 
+      Built for water operations, modeling, and autonomous research.
+    </p>
+    <p style="margin-top: 0.5rem;">
+      <a href="https://github.com/boxwrench/of-agents-and-aquifers" target="_blank" id="repo-link">View Repository on GitHub</a>
+    </p>
+  </footer>
+
+  <!-- App Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
