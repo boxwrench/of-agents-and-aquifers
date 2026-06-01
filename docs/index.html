@@ -3,108 +3,158 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Of Agents and Aquifers // Research Dashboard</title>
-  <meta name="description" content="A curated research archive exploring the intersection of autonomous AI agents, groundwater aquifers, and water systems.">
+  <title>Of Agents and Aquifers // Projects & Research</title>
+  <meta name="description" content="A curated directory and dashboard mapping autonomous agents, simulation testbeds, and aquifers.">
   
   <!-- CSS Stylesheet -->
   <link rel="stylesheet" href="style.css">
   
-  <!-- Favicon placeholder (Uses SVG) -->
+  <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💧</text></svg>">
 </head>
 <body>
 
-  <!-- Background decorative glow -->
-  <div class="header-accent-glow"></div>
-
   <!-- Header -->
-  <header>
-    <h1>Of Agents and Aquifers</h1>
-    <p class="subtitle">A curated database mapping the integration of autonomous agents, hydraulic models, and groundwater aquifer resources.</p>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">💧</span>
+        <span class="logo-text">Of Agents and Aquifers</span>
+      </a>
+      <div class="header-controls">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode">
+          <!-- Light Mode Icon (Moon) -->
+          <svg id="theme-icon-moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:20px; height:20px;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+          </svg>
+          <!-- Dark Mode Icon (Sun) -->
+          <svg id="theme-icon-sun" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:20px; height:20px; display: none;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m0 13.5V21m8.953-8.953h-2.25m-13.5 0h-2.25m15.356-6.104l-1.591 1.591M6.784 17.216l-1.591 1.591m12.728 0l-1.591-1.591M6.784 6.784A7.5 7.5 0 1117.216 17.216 7.5 7.5 0 016.784 6.784z" />
+          </svg>
+        </button>
+      </div>
+    </div>
   </header>
 
-  <!-- Control Panel: Filter Tools & Bookmarklet -->
-  <section class="tools-panel">
-    
-    <!-- Left: Search & Filter Tag Card -->
-    <div class="card" id="search-filter-card">
-      <h2>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:22px; height:22px;">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-        </svg>
-        Filter Research
-      </h2>
-      <div class="search-container">
-        <div class="search-input-wrapper">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-          </svg>
-          <input type="text" id="search-input" class="search-input" placeholder="Search by title, source, description, tags...">
-        </div>
-        <div id="tags-list" class="tags-list">
-          <!-- Populated dynamically via JS -->
-          <button class="tag-btn active">All Articles</button>
-        </div>
-      </div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg-waves"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title">Of Agents and Aquifers</h1>
+      <p class="hero-subtitle">Water, Systems, and Agentic AI Sandboxing</p>
     </div>
-
-    <!-- Right: Bookmarklet Automation Card -->
-    <div class="card" id="bookmarklet-card">
-      <h2>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:22px; height:22px;">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
-        </svg>
-        Add Web Articles
-      </h2>
-      <div class="bookmarklet-setup">
-        <div class="setup-input-group">
-          <label for="repo-input">Your GitHub Repo (Owner/Repo):</label>
-          <input type="text" id="repo-input" class="setup-input" placeholder="e.g. username/repo-name">
-        </div>
-        <div class="bookmarklet-btn-wrapper">
-          <a href="#" id="bookmarklet-link" class="bookmarklet-link" title="Drag me to your bookmarks bar">💧 Add to Aquifers</a>
-          <button id="copy-bookmarklet" class="copy-btn">Copy Bookmarklet Code</button>
-        </div>
-        <p class="helper-text">
-          <strong>How it works:</strong> Drag the button above to your bookmarks bar. 
-          When you view any article online, click the bookmark. It opens a prefilled GitHub issue page. 
-          Click "Submit", and a GitHub Action automatically scrapes the details, creates markdown study notes, and updates this page.
-        </p>
-      </div>
-    </div>
-
   </section>
 
-  <!-- Main Section: Grid list of articles -->
-  <main>
-    <div class="dashboard-header">
-      <h2>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:22px; height:22px;">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-.778.099-1.533.284-2.253" />
-        </svg>
-        Research Archive
-      </h2>
-      <span id="results-count" class="results-count">Loading articles...</span>
-    </div>
+  <!-- Main Grid Layout -->
+  <div class="container">
+    <div class="workspace-grid">
+      
+      <!-- Left Sidebar: Search, Filters & Bookmarklet Tool -->
+      <aside class="sidebar">
+        
+        <!-- Search and Categories Filter Card -->
+        <div class="card">
+          <div class="search-input-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+            <input type="text" id="search-input" class="search-input" placeholder="Search archive...">
+          </div>
+          
+          <h3 class="card-title">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:18px; height:18px;">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
+            </svg>
+            Categories
+          </h3>
+          <ul class="category-filter-list">
+            <li>
+              <button class="category-filter-btn active" data-category="all">
+                <span>All Articles</span>
+                <span class="category-count" id="count-all">0</span>
+              </button>
+            </li>
+            <li>
+              <button class="category-filter-btn" data-category="research">
+                <span>Research & Cases</span>
+                <span class="category-count" id="count-research">0</span>
+              </button>
+            </li>
+            <li>
+              <button class="category-filter-btn" data-category="tutorials">
+                <span>Tutorials & Guides</span>
+                <span class="category-count" id="count-tutorials">0</span>
+              </button>
+            </li>
+            <li>
+              <button class="category-filter-btn" data-category="tooling">
+                <span>Tooling & Harnesses</span>
+                <span class="category-count" id="count-tooling">0</span>
+              </button>
+            </li>
+            <li>
+              <button class="category-filter-btn" data-category="datasets">
+                <span>Datasets & Data</span>
+                <span class="category-count" id="count-datasets">0</span>
+              </button>
+            </li>
+          </ul>
+        </div>
 
-    <!-- Dynamic Grid -->
-    <div id="articles-grid" class="grid-container">
-      <!-- Populated dynamically via JS -->
+        <!-- Add Link Catcher Tool Card -->
+        <div class="card">
+          <h3 class="card-title">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:18px; height:18px;">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+            </svg>
+            Add Article
+          </h3>
+          <div class="bookmarklet-setup">
+            <div class="setup-input-group">
+              <label for="repo-input">GitHub Repo (Owner/Repo):</label>
+              <input type="text" id="repo-input" class="setup-input" placeholder="boxwrench/of-agents-and-aquifers">
+            </div>
+            <div class="bookmarklet-actions">
+              <a href="#" id="bookmarklet-link" class="bookmarklet-link" title="Drag me to your bookmarks bar">💧 Add to Aquifers</a>
+              <button id="copy-bookmarklet" class="copy-btn">Copy JavaScript Link</button>
+            </div>
+            <p class="helper-text">
+              Drag the button above to your browser's bookmarks bar. 
+              Click it on any web article to open a prefilled GitHub issue and automatically update this archive.
+            </p>
+          </div>
+        </div>
+
+      </aside>
+
+      <!-- Right Main Panel: Displaying Scraped items -->
+      <main>
+        <div class="archive-main-header">
+          <h2 class="archive-main-title">Resource Database</h2>
+          <span id="results-count" class="results-count">Loading resources...</span>
+        </div>
+
+        <!-- Resource Cards Grid -->
+        <div id="articles-grid" class="cards-grid">
+          <!-- Populated dynamically via app.js -->
+        </div>
+      </main>
+
     </div>
-  </main>
+  </div>
 
   <!-- Footer -->
-  <footer>
-    <p>
-      &copy; 2026 Of Agents and Aquifers. Powered by GitHub Actions. 
-      Built for water operations, modeling, and autonomous research.
-    </p>
-    <p style="margin-top: 0.5rem;">
-      <a href="https://github.com/boxwrench/of-agents-and-aquifers" target="_blank" id="repo-link">View Repository on GitHub</a>
-    </p>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Of Agents and Aquifers. Built for water treatment and AI modeling professionals.</p>
+      <p style="margin-top: 10px; font-size: 0.85rem;">
+        See related writing at <a href="https://www.title22.org" target="_blank">Title 22</a> | 
+        <a href="https://github.com/boxwrench/of-agents-and-aquifers" target="_blank">GitHub Repository</a>
+      </p>
+    </div>
   </footer>
 
-  <!-- App Logic -->
+  <!-- Javascript -->
   <script src="app.js"></script>
 </body>
 </html>

@@ -8,6 +8,9 @@ These files are automatically generated when you submit a new link using the aut
 
 | Date Added | Title | Source | Notes File |
 |---|---|---|---|
+| 2026-06-01 | [USGS Active Groundwater Level Network Telemetry Feed](https://waterdata.usgs.gov/nwis/gw) | USGS | [usgs-active-groundwater-level-network-telemetry.md](usgs-active-groundwater-level-network-telemetry.md) |
+| 2026-06-01 | [Hermes: Autonomous Hydrological Agent Evaluator & Test Harness](https://github.com/boxwrench/hermes-harness) | GitHub | [hermes-autonomous-hydrological-agent-evaluator.md](hermes-autonomous-hydrological-agent-evaluator.md) |
+| 2026-06-01 | [Introduction to Agent-Based Groundwater Modeling in Python](https://example.com/python-groundwater-tutorial) | Medium | [introduction-to-agent-based-groundwater-modeling-in-python.md](introduction-to-agent-based-groundwater-modeling-in-python.md) |
 | 2026-06-01 | [Agent-Based Modeling for Groundwater Management](https://example.com/abm-groundwater) | ResearchGate | [agent-based-modeling-for-groundwater-management.md](agent-based-modeling-for-groundwater-management.md) |
 
 ---
@@ -16,4 +19,4 @@ These files are automatically generated when you submit a new link using the aut
 > To add a new article automatically:
 > 1. Use the **Add Article bookmarklet** in your browser.
 > 2. Submit the issue in this repository.
-> 3. The GitHub Action will scrape the webpage, update `data/articles.json`, and create a new notes file in this directory.
+> 3. The GitHub Action will scrape the webpage, update `docs/data/articles.json`, and create a new notes file in this directory.

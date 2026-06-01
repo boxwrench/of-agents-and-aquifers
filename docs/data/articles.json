@@ -1,5 +1,47 @@
 [
   {
+    "title": "USGS Active Groundwater Level Network Telemetry Feed",
+    "url": "https://waterdata.usgs.gov/nwis/gw",
+    "site_name": "USGS",
+    "description": "Real-time groundwater telemetry data containing well depth measurements, aquifer hydrographs, and seasonal discharge records across the United States.",
+    "image": "",
+    "date_published": "2026-05-31",
+    "date_added": "2026-06-01",
+    "notes_file": "research/usgs-active-groundwater-level-network-telemetry.md",
+    "tags": [
+      "datasets",
+      "hydrology"
+    ]
+  },
+  {
+    "title": "Hermes: Autonomous Hydrological Agent Evaluator & Test Harness",
+    "url": "https://github.com/boxwrench/hermes-harness",
+    "site_name": "GitHub",
+    "description": "An automated harness evaluating agentic AI tools on SCADA telemetry feeds, aquifer simulation models, and predictive chemical compliance benchmarks.",
+    "image": "",
+    "date_published": "2026-05-20",
+    "date_added": "2026-06-01",
+    "notes_file": "research/hermes-autonomous-hydrological-agent-evaluator.md",
+    "tags": [
+      "tooling",
+      "hermes"
+    ]
+  },
+  {
+    "title": "Introduction to Agent-Based Groundwater Modeling in Python",
+    "url": "https://example.com/python-groundwater-tutorial",
+    "site_name": "Medium",
+    "description": "A step-by-step tutorial on building a basic cellular automaton to simulate aquifer drawdown and recharge cycles using Python and NumPy.",
+    "image": "",
+    "date_published": "2026-04-10",
+    "date_added": "2026-06-01",
+    "notes_file": "research/introduction-to-agent-based-groundwater-modeling-in-python.md",
+    "tags": [
+      "tutorial",
+      "python"
+    ]
+  },
+  {
     "title": "Agent-Based Modeling for Groundwater Management",
     "url": "https://example.com/abm-groundwater",
     "site_name": "ResearchGate",
