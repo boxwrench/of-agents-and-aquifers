@@ -14,44 +14,16 @@
     ]
   },
   {
-    "title": "Hermes: Autonomous Hydrological Agent Evaluator & Test Harness",
-    "url": "https://github.com/boxwrench/hermes-harness",
+    "title": "tesla_agent: Local Agentic AI for Utilities",
+    "url": "https://github.com/boxwrench/tesla_agent",
     "site_name": "GitHub",
-    "description": "An automated harness evaluating agentic AI tools on SCADA telemetry feeds, aquifer simulation models, and predictive chemical compliance benchmarks.",
+    "description": "A clean-room, plug-and-play template designed to teach water treatment operators and utility professionals how to build and run local, private agentic AI workflows on consumer AMD hardware.",
     "image": "",
-    "date_published": "2026-05-20",
+    "date_published": "2026-05-31",
     "date_added": "2026-06-01",
-    "notes_file": "research/hermes-autonomous-hydrological-agent-evaluator.md",
+    "notes_file": "research/tesla-agent-local-agentic-ai-for-utilities.md",
     "tags": [
       "tooling",
-      "hermes"
-    ]
-  },
-  {
-    "title": "Introduction to Agent-Based Groundwater Modeling in Python",
-    "url": "https://example.com/python-groundwater-tutorial",
-    "site_name": "Medium",
-    "description": "A step-by-step tutorial on building a basic cellular automaton to simulate aquifer drawdown and recharge cycles using Python and NumPy.",
-    "image": "",
-    "date_published": "2026-04-10",
-    "date_added": "2026-06-01",
-    "notes_file": "research/introduction-to-agent-based-groundwater-modeling-in-python.md",
-    "tags": [
-      "tutorial",
-      "python"
-    ]
-  },
-  {
-    "title": "Agent-Based Modeling for Groundwater Management",
-    "url": "https://example.com/abm-groundwater",
-    "site_name": "ResearchGate",
-    "description": "An interactive framework where heterogeneous agents (farmers and water authorities) make decisions about aquifer pumping, exploring the tragedy of the commons in groundwater usage.",
-    "image": "",
-    "date_published": "2026-01-15",
-    "date_added": "2026-06-01",
-    "notes_file": "research/agent-based-modeling-for-groundwater-management.md",
-    "tags": [
-      "modeling",
       "water"
     ]
   }

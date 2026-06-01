@@ -9,9 +9,7 @@ These files are automatically generated when you submit a new link using the aut
 | Date Added | Title | Source | Notes File |
 |---|---|---|---|
 | 2026-06-01 | [USGS Active Groundwater Level Network Telemetry Feed](https://waterdata.usgs.gov/nwis/gw) | USGS | [usgs-active-groundwater-level-network-telemetry.md](usgs-active-groundwater-level-network-telemetry.md) |
-| 2026-06-01 | [Hermes: Autonomous Hydrological Agent Evaluator & Test Harness](https://github.com/boxwrench/hermes-harness) | GitHub | [hermes-autonomous-hydrological-agent-evaluator.md](hermes-autonomous-hydrological-agent-evaluator.md) |
-| 2026-06-01 | [Introduction to Agent-Based Groundwater Modeling in Python](https://example.com/python-groundwater-tutorial) | Medium | [introduction-to-agent-based-groundwater-modeling-in-python.md](introduction-to-agent-based-groundwater-modeling-in-python.md) |
-| 2026-06-01 | [Agent-Based Modeling for Groundwater Management](https://example.com/abm-groundwater) | ResearchGate | [agent-based-modeling-for-groundwater-management.md](agent-based-modeling-for-groundwater-management.md) |
+| 2026-06-01 | [tesla_agent: Local Agentic AI for Utilities](https://github.com/boxwrench/tesla_agent) | GitHub | [tesla-agent-local-agentic-ai-for-utilities.md](tesla-agent-local-agentic-ai-for-utilities.md) |
 
 ---
 
