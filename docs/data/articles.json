@@ -10,7 +10,7 @@
     "notes_file": "research/usgs-active-groundwater-level-network-telemetry.md",
     "tags": [
       "datasets",
-      "hydrology"
+      "telemetry"
     ]
   },
   {
@@ -52,7 +52,7 @@
     "notes_file": "research/agent-based-modeling-for-groundwater-management.md",
     "tags": [
       "modeling",
-      "groundwater"
+      "water"
     ]
   }
 ]

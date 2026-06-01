@@ -9,7 +9,7 @@
 Real-time groundwater telemetry data containing well depth measurements, aquifer hydrographs, and seasonal discharge records across the United States.
 
 ## 💧 Relevance to Of Agents and Aquifers
-*Why is this important for water systems, agentic modeling, or aquifer management?*
+*Why is this important for water systems, agentic modeling, or water telemetry?*
 - Supplies live physical groundwater data for model ingestion.
 - Enables validation of agentic predictions against real-world measurements.
 

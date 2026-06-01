@@ -9,9 +9,9 @@
 A step-by-step tutorial on building a basic cellular automaton to simulate aquifer drawdown and recharge cycles using Python and NumPy.
 
 ## 💧 Relevance to Of Agents and Aquifers
-*Why is this important for water systems, agentic modeling, or aquifer management?*
+*Why is this important for water systems, agentic modeling, or water systems?*
 - Provides an easy-to-follow programmatic starting point for operational simulation.
-- Explains how spatial grids representing aquifers can be integrated with agent decisions.
+- Explains how spatial grids representing water systems can be integrated with agent decisions.
 
 ## 🤖 Agentic Aspects
 *What autonomous or intelligence features does this research touch upon?*

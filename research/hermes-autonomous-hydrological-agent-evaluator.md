@@ -6,10 +6,10 @@
 > **Published:** 2026-05-20
 
 ## Summary
-An automated harness evaluating agentic AI tools on SCADA telemetry feeds, aquifer simulation models, and predictive chemical compliance benchmarks.
+An automated harness evaluating agentic AI tools on SCADA telemetry feeds, water system simulation models, and predictive chemical compliance benchmarks.
 
 ## 💧 Relevance to Of Agents and Aquifers
-*Why is this important for water systems, agentic modeling, or aquifer management?*
+*Why is this important for water systems, agentic modeling, or utility management?*
 - Benchmarks agent reasoning capabilities against hydrologic parameters.
 - Standardizes testing setups for agents executing operational commands on physical simulated plants.
 

@@ -5,10 +5,10 @@ let searchQuery = '';
 
 // Category Tag Mappings
 const categoryMap = {
-  research: ['research', 'case-studies', 'case-study', 'modeling', 'groundwater'],
+  research: ['research', 'case-studies', 'case-study', 'modeling', 'water', 'treatment', 'scada'],
   tutorials: ['tutorials', 'guides', 'tutorial', 'guide'],
   tooling: ['tooling', 'harnesses', 'tool', 'harness', 'hermes'],
-  datasets: ['datasets', 'telemetry', 'dataset', 'data', 'hydrology']
+  datasets: ['datasets', 'telemetry', 'dataset', 'data', 'utilities', 'sensors']
 };
 
 // DOM Elements

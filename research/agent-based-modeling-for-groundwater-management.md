@@ -9,8 +9,8 @@
 An interactive framework where heterogeneous agents (farmers and water authorities) make decisions about aquifer pumping, exploring the tragedy of the commons in groundwater usage.
 
 ## 💧 Relevance to Of Agents and Aquifers
-*Why is this important for water systems, agentic modeling, or aquifer management?*
-- Illustrates how individual agents (water users) interact with a shared geological resource (the aquifer).
+*Why is this important for water systems, agentic modeling, or water system management?*
+- Illustrates how individual agents (water users) interact with a shared water system resource.
 - Explores policy interventions and how agents respond to quotas, pricing, and social norms.
 
 ## 🤖 Agentic Aspects

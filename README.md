@@ -4,9 +4,9 @@
 > **Explore the Research Dashboard Live at:**  
 > 👉 **[boxwrench.github.io/of-agents-and-aquifers](https://boxwrench.github.io/of-agents-and-aquifers/)**
 
-Welcome to **Of Agents and Aquifers**! This repository is a structured workspace designed to log research, run experiments, and develop simulations at the intersection of **AI Agents and Hydro-geological Systems (Aquifers)**.
+Welcome to **Of Agents and Aquifers**! This repository is a structured workspace designed to log research, run experiments, and develop simulations at the intersection of **AI Agents and Water Utilities / Systems**.
 
-The title is inspired by the ongoing evolution of agentic workflows (decentralized decision-makers, autonomous telemetry interpreters) interacting with shared, complex environmental resources (groundwater aquifers).
+The title is inspired by the ongoing evolution of agentic workflows (decentralized decision-makers, autonomous telemetry interpreters) interacting with water treatment systems, utility infrastructure, and operational parameters.
 
 ---
 
