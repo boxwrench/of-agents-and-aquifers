@@ -129,6 +129,50 @@
 
       <!-- Right Main Panel: Displaying Scraped items -->
       <main>
+        
+        <!-- Core Featured Section -->
+        <div class="featured-section" style="margin-bottom: 40px;">
+          <h3 class="card-title" style="border-bottom: 1px solid var(--border-color); padding-bottom: 12px; margin-bottom: 20px; font-family: var(--font-serif); font-size: 1.3rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width:18px; height:18px; color: var(--accent);">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499c.173-.439.843-.439 1.016 0l2.235 5.753 5.923.633c.48.051.672.642.302.951l-4.502 3.824 1.488 5.748c.12.464-.37.822-.767.574l-4.887-3.056-4.887 3.056c-.398.248-.888-.11-.768-.574l1.488-5.748-4.502-3.824c-.37-.309-.178-.9-.302-.951l5.923-.633 2.235-5.753z" />
+            </svg>
+            Core Projects & Writing
+          </h3>
+          <div class="featured-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+            
+            <!-- Card 1: Title 22 -->
+            <div class="content-item" style="border-left: 4px solid var(--accent); background: var(--white); min-height: unset; padding: 20px;">
+              <div class="content-item-top" style="margin-bottom: 8px;">
+                <span class="content-source" style="display: flex; align-items: center; gap: 6px; font-size: 0.7rem;">
+                  <img src="assets/brand/favicon/22favicon.png" alt="" style="width: 14px; height: 14px; object-fit: contain;">
+                  Publication
+                </span>
+              </div>
+              <h4 class="content-title" style="font-size: 1.08rem; margin-bottom: 6px;"><a href="https://www.title22.org/" target="_blank" style="color: var(--accent);">Title 22</a></h4>
+              <p class="content-blurb" style="font-size: 0.88rem; line-height: 1.45; margin-bottom: 0; color: var(--ink-light); display: block; -webkit-line-clamp: unset;">Systems, strategies, and thinking in the framework of water operations and resources.</p>
+            </div>
+
+            <!-- Card 2: tesla_agent -->
+            <div class="content-item" style="border-left: 4px solid var(--accent); background: var(--white); min-height: unset; padding: 20px;">
+              <div class="content-item-top" style="margin-bottom: 8px;">
+                <span class="content-source" style="font-size: 0.7rem;">GitHub Tooling</span>
+              </div>
+              <h4 class="content-title" style="font-size: 1.08rem; margin-bottom: 6px;"><a href="https://github.com/boxwrench/tesla_agent" target="_blank" style="color: var(--accent);">tesla_agent</a></h4>
+              <p class="content-blurb" style="font-size: 0.88rem; line-height: 1.45; margin-bottom: 0; color: var(--ink-light); display: block; -webkit-line-clamp: unset;">Plug-and-play template designed to teach water operators how to run local, private AI workflows on AMD hardware.</p>
+            </div>
+
+            <!-- Card 3: potable -->
+            <div class="content-item" style="border-left: 4px solid var(--accent); background: var(--white); min-height: unset; padding: 20px;">
+              <div class="content-item-top" style="margin-bottom: 8px;">
+                <span class="content-source" style="font-size: 0.7rem;">GitHub Project</span>
+              </div>
+              <h4 class="content-title" style="font-size: 1.08rem; margin-bottom: 6px;"><a href="https://github.com/boxwrench/potable" target="_blank" style="color: var(--accent);">Potable</a></h4>
+              <p class="content-blurb" style="font-size: 0.88rem; line-height: 1.45; margin-bottom: 0; color: var(--ink-light); display: block; -webkit-line-clamp: unset;">An open project building fine-tuning datasets and language models for drinking water treatment operations.</p>
+            </div>
+
+          </div>
+        </div>
+
         <div class="archive-main-header">
           <h2 class="archive-main-title">Resource Database</h2>
           <span id="results-count" class="results-count">Loading resources...</span>

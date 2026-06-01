@@ -10,6 +10,14 @@ The title is inspired by the ongoing evolution of agentic workflows (decentraliz
 
 ---
 
+## 🌟 Core Projects & Writing
+
+*   **[Title 22](https://www.title22.org/)** <img src="docs/assets/brand/favicon/22favicon.png" width="18" height="18" valign="middle" alt="Title 22 Logo"> — *Systems, strategies, and thinking in the framework of water operations and resources.*
+*   **[tesla_agent](https://github.com/boxwrench/tesla_agent)** — *Plug-and-play template designed to teach water treatment operators and utility professionals how to build and run local, private agentic AI workflows on consumer AMD hardware.*
+*   **[Potable](https://github.com/boxwrench/potable)** — *An open project building fine-tuning datasets and language models for drinking water treatment operations.*
+
+---
+
 ## 💧 Automated Link Catcher: How it Works
 
 This repository is equipped with a **GitHub Action** that handles article import. When you spot an interesting article or paper online:
