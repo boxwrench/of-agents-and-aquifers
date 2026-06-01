@@ -26,5 +26,775 @@
       "tooling",
       "water"
     ]
+  },
+  {
+    "title": "aiWATERS (Virginia Tech)",
+    "url": "https://vtechworks.lib.vt.edu/items/1eb809d6-947b-4e08-b91e-039380737f95",
+    "site_name": "Virginia Tech",
+    "description": "An AI governance and adoption framework for water/wastewater utilities.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/aiwaters-virginia-tech.md",
+    "tags": [
+      "research",
+      "water"
+    ]
+  },
+  {
+    "title": "Systematic review of AI in water regulations",
+    "url": "https://www.nature.com/articles/s41545-026-00555-w",
+    "site_name": "Nature",
+    "description": "A review published in *Nature Water* on how AI is entering water policy and regulation.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/systematic-review-of-ai-in-water-regulations.md",
+    "tags": [
+      "research",
+      "water"
+    ]
+  },
+  {
+    "title": "Large Language Models for Water Distribution Systems Modeling and Decision-Making (2025/2026)",
+    "url": "https://arxiv.org/abs/2503.16191",
+    "site_name": "arXiv",
+    "description": "Introduces **LLM-EPANET**, an agent-based framework for natural language interaction with hydraulic simulators.",
+    "image": "",
+    "date_published": "2026-01-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/large-language-models-for-water-distribution-systems-modeling-and-decision-making-20252026.md",
+    "tags": [
+      "research",
+      "water"
+    ]
+  },
+  {
+    "title": "Domain-Specific LLMs for Water/Wastewater Utility Applications",
+    "url": "https://arxiv.org/html/2505.16120v2",
+    "site_name": "arXiv",
+    "description": "Evaluates generic LLM performance and the need for domain-specific fine-tuning.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/domain-specific-llms-for-waterwastewater-utility-applications.md",
+    "tags": [
+      "research",
+      "water"
+    ]
+  },
+  {
+    "title": "A Review of Artificial Intelligence Techniques for Leak Detection in Water Distribution Networks (2024)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38350191/",
+    "site_name": "PubMed",
+    "description": "Systematic review of AI/ML techniques for leak detection and location.",
+    "image": "",
+    "date_published": "2024-01-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/a-review-of-artificial-intelligence-techniques-for-leak-detection-in-water-distribution-networks-2024.md",
+    "tags": [
+      "research",
+      "water"
+    ]
+  },
+  {
+    "title": "Cybersecurity in Water Distribution Networks: A Systematic Review of AI-Based Detection Algorithms (2026)",
+    "url": "https://doi.org/10.3390/w18040519",
+    "site_name": "DOI",
+    "description": "Evaluates AI-based detection for SCADA and PLC systems in water networks.",
+    "image": "",
+    "date_published": "2026-01-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/cybersecurity-in-water-distribution-networks-a-systematic-review-of-ai-based-detection-algorithms-2026.md",
+    "tags": [
+      "research",
+      "water"
+    ]
+  },
+  {
+    "title": "Artificial Intelligence in Water Distribution Networks: A Systematic Review (2026)",
+    "url": "https://doi.org/10.3390/smartcities9030045",
+    "site_name": "DOI",
+    "description": "Comprehensive review covering 53 studies (2018-2025) on ML/DL/hybrid models.",
+    "image": "",
+    "date_published": "2026-01-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/artificial-intelligence-in-water-distribution-networks-a-systematic-review-2026.md",
+    "tags": [
+      "research",
+      "water"
+    ]
+  },
+  {
+    "title": "Contaminations in Water Distribution Systems: A Critical Review of Detection and Response Methods (2024)",
+    "url": "https://doi.org/10.2166/aqua.2024.125",
+    "site_name": "DOI",
+    "description": "Critical review focusing on online sensor systems and contamination response.",
+    "image": "",
+    "date_published": "2024-01-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/contaminations-in-water-distribution-systems-a-critical-review-of-detection-and-response-methods-2024.md",
+    "tags": [
+      "research",
+      "water"
+    ]
+  },
+  {
+    "title": "Accelerating water distribution systems planning and design with generative artificial intelligence models (2026)",
+    "url": "https://doi.org/10.1017/wat.2025.12",
+    "site_name": "DOI",
+    "description": "AI agent framework for automating infrastructure planning and network design.",
+    "image": "",
+    "date_published": "2026-01-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/accelerating-water-distribution-systems-planning-and-design-with-generative-artificial-intelligence-models-2026.md",
+    "tags": [
+      "research",
+      "water"
+    ]
+  },
+  {
+    "title": "Hydraulic performance benchmarking for effective management of water distribution networks (2021)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34454199/",
+    "site_name": "PubMed",
+    "description": "Proposes the Hydraulic Performance Index (HPI) for benchmarking.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/hydraulic-performance-benchmarking-for-effective-management-of-water-distribution-networks-2021.md",
+    "tags": [
+      "datasets",
+      "telemetry"
+    ]
+  },
+  {
+    "title": "Mastering Agentic Techniques for AI Agent Customization",
+    "url": "https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-customization/",
+    "site_name": "NVIDIA",
+    "description": "Technical guidance on building specialized AI agents.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/mastering-agentic-techniques-for-ai-agent-customization.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "Train Small Orchestration Agents to Solve Big Problems",
+    "url": "https://developer.nvidia.com/blog/train-small-orchestration-agents-to-solve-big-problems/",
+    "site_name": "NVIDIA",
+    "description": "Utilizing small, specialized agents for complex task orchestration.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/train-small-orchestration-agents-to-solve-big-problems.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "Reinforcement Learning and Machine Learning Controllers for Electrochemical Desalination",
+    "url": "https://pubs.acs.org/doi/10.1021/acsestwater.4c00561",
+    "site_name": "ACS",
+    "description": "AI control systems for water quality and energy efficiency in desalination.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/reinforcement-learning-and-machine-learning-controllers-for-electrochemical-desalination.md",
+    "tags": [
+      "research",
+      "water"
+    ]
+  },
+  {
+    "title": "Leveraging large language models for automating water distribution network optimization",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40945061/",
+    "site_name": "PubMed",
+    "description": "Automation of water distribution network optimization via LLMs.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/leveraging-large-language-models-for-automating-water-distribution-network-optimization.md",
+    "tags": [
+      "research",
+      "water"
+    ]
+  },
+  {
+    "title": "Run Long-Horizon Tasks with AI Agents",
+    "url": "https://developers.openai.com/blog/run-long-horizon-tasks-with-codex",
+    "site_name": "OpenAI",
+    "description": "Techniques for multi-step goal decomposition in agent workflows.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/run-long-horizon-tasks-with-ai-agents.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "Eval Skills: Best Practices for Evaluating AI",
+    "url": "https://developers.openai.com/blog/eval-skills",
+    "site_name": "OpenAI",
+    "description": "Rigorous evaluation frameworks for reliable AI deployment.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/eval-skills-best-practices-for-evaluating-ai.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "Building Agents",
+    "url": "https://openai.com/tracks/building-agents",
+    "site_name": "OpenAI",
+    "description": "Comprehensive learning track for agent design and implementation.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/building-agents.md",
+    "tags": [
+      "research",
+      "ai"
+    ]
+  },
+  {
+    "title": "OpenAI Agents (Python)",
+    "url": "https://github.com/openai/openai-agents-python",
+    "site_name": "GitHub",
+    "description": "Official Python library for building OpenAI API-based agents.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/openai-agents-python.md",
+    "tags": [
+      "tooling",
+      "ai"
+    ]
+  },
+  {
+    "title": "Awesome Industrial Datasets",
+    "url": "https://github.com/jonathanwvd/awesome-industrial-datasets",
+    "site_name": "GitHub",
+    "description": "Curated list of industrial/engineering datasets.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/awesome-industrial-datasets.md",
+    "tags": [
+      "datasets",
+      "data"
+    ]
+  },
+  {
+    "title": "How to Train Your GPT",
+    "url": "https://github.com/raiyanyahya/how-to-train-your-gpt",
+    "site_name": "GitHub",
+    "description": "Practical resources for LLM fine-tuning and customization.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/how-to-train-your-gpt.md",
+    "tags": [
+      "tooling",
+      "ai"
+    ]
+  },
+  {
+    "title": "FDAbench",
+    "url": "https://github.com/fdabench/FDAbench",
+    "site_name": "GitHub",
+    "description": "Benchmark suite for functional data analysis in high-frequency sensor streams.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/fdabench.md",
+    "tags": [
+      "datasets",
+      "data"
+    ]
+  },
+  {
+    "title": "AI Engineering From Scratch",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "site_name": "GitHub",
+    "description": "Roadmap for building AI engineering systems from the ground up.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/ai-engineering-from-scratch.md",
+    "tags": [
+      "tooling",
+      "ai"
+    ]
+  },
+  {
+    "title": "AssetOpsBench",
+    "url": "https://github.com/IBM/AssetOpsBench",
+    "site_name": "GitHub",
+    "description": "IBM benchmark suite for utility and facility asset operations.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/assetopsbench.md",
+    "tags": [
+      "datasets",
+      "data"
+    ]
+  },
+  {
+    "title": "Potable",
+    "url": "https://github.com/boxwrench/potable",
+    "site_name": "GitHub",
+    "description": "Open-source tools for potable water infrastructure management.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/potable.md",
+    "tags": [
+      "tooling",
+      "water"
+    ]
+  },
+  {
+    "title": "Awesome Open Source AI",
+    "url": "https://github.com/alvinreal/awesome-opensource-ai",
+    "site_name": "GitHub",
+    "description": "Curated collection of open-source AI projects.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/awesome-open-source-ai.md",
+    "tags": [
+      "tooling",
+      "ai"
+    ]
+  },
+  {
+    "title": "Agent-to-Agent MCP Tutorial",
+    "url": "https://matteovillosio.com/writing/agent2agent-mcp-tutorial/",
+    "site_name": "Matteo Villosio",
+    "description": "Tutorial on using the Model Context Protocol (MCP) for multi-agent delegation.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/agent-to-agent-mcp-tutorial.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "EvolKit",
+    "url": "https://github.com/arcee-ai/EvolKit",
+    "site_name": "GitHub",
+    "description": "Framework for automated instruction evolution in LLM fine-tuning.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/evolkit.md",
+    "tags": [
+      "tooling",
+      "ai"
+    ]
+  },
+  {
+    "title": "AutoAgent",
+    "url": "https://github.com/kevinrgu/autoagent",
+    "site_name": "GitHub",
+    "description": "Autonomous harness for engineering and benchmarking LLM agents.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/autoagent.md",
+    "tags": [
+      "tooling",
+      "ai"
+    ]
+  },
+  {
+    "title": "GStack",
+    "url": "https://github.com/garrytan/gstack",
+    "site_name": "GitHub",
+    "description": "Toolkit for solo developers to structure agentic coding tools like a startup team.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/gstack.md",
+    "tags": [
+      "tooling",
+      "ai"
+    ]
+  },
+  {
+    "title": "A-Evolve",
+    "url": "https://github.com/A-EVO-Lab/a-evolve",
+    "site_name": "GitHub",
+    "description": "Infrastructure for autonomous evolution of agents, tools, and prompts.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/a-evolve.md",
+    "tags": [
+      "tooling",
+      "ai"
+    ]
+  },
+  {
+    "title": "Awesome Autoresearch",
+    "url": "https://github.com/alvinreal/awesome-autoresearch",
+    "site_name": "GitHub",
+    "description": "Curated list of autonomous improvement loops and autoresearch systems.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/awesome-autoresearch.md",
+    "tags": [
+      "tooling",
+      "ai"
+    ]
+  },
+  {
+    "title": "NVIDIA NeMo Agent Toolkit",
+    "url": "https://developer.nvidia.com/nemo-agent-toolkit",
+    "site_name": "NVIDIA",
+    "description": "Framework for orchestration, observability, and evaluation in AI agents.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/nvidia-nemo-agent-toolkit.md",
+    "tags": [
+      "research",
+      "ai"
+    ]
+  },
+  {
+    "title": "Google Cloud Skills Course Template",
+    "url": "https://www.skills.google/course_templates/1267?locale=en",
+    "site_name": "Google",
+    "description": "Google-curated course template for foundational AI skills.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/google-cloud-skills-course-template.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "Google Cloud Training",
+    "url": "https://cloud.google.com/learn/training",
+    "site_name": "Google",
+    "description": "Training paths for Google Cloud AI and infrastructure.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/google-cloud-training.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "NVIDIA Agentic AI Professional Certification",
+    "url": "https://www.nvidia.com/en-us/learn/certification/agentic-ai-professional/",
+    "site_name": "NVIDIA",
+    "description": "Certification for developers building production-grade agentic AI.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/nvidia-agentic-ai-professional-certification.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "NVIDIA DLI Agentic AI Course",
+    "url": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-15+V1",
+    "site_name": "NVIDIA",
+    "description": "Deep Learning Institute training on agentic workflows.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/nvidia-dli-agentic-ai-course.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "NVIDIA Self-Paced Courses",
+    "url": "https://www.nvidia.com/en-us/training/self-paced-courses/",
+    "site_name": "NVIDIA",
+    "description": "Repository of on-demand training for AI and data science.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/nvidia-self-paced-courses.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "Claude for You",
+    "url": "https://www.anthropic.com/learn/claude-for-you",
+    "site_name": "Anthropic",
+    "description": "Introduction to Claude’s data analysis and communication capabilities.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/claude-for-you.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "Anthropic Learn",
+    "url": "https://www.anthropic.com/learn",
+    "site_name": "Anthropic",
+    "description": "Best practices for safe and responsible AI implementation.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/anthropic-learn.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "A Practical Guide to Building AI Agents",
+    "url": "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/",
+    "site_name": "OpenAI",
+    "description": "Strategic guide on implementing agentic workflows for business/infrastructure.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/a-practical-guide-to-building-ai-agents.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "OpenAI Academy",
+    "url": "https://academy.openai.com/",
+    "site_name": "OpenAI",
+    "description": "Structured learning for mastering AI development.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/openai-academy.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "Dialectics for Artificial Intelligence (2025)",
+    "url": "https://arxiv.org/abs/2512.17373",
+    "site_name": "arXiv",
+    "description": "Information-theoretic approach for AI concept discovery from raw experience.",
+    "image": "",
+    "date_published": "2025-01-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/dialectics-for-artificial-intelligence-2025.md",
+    "tags": [
+      "research",
+      "ai"
+    ]
+  },
+  {
+    "title": "Wired for Action: Langflow Enables Local AI Agent Creation",
+    "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-langflow-agents-remix/",
+    "site_name": "NVIDIA",
+    "description": "No-code, local AI agent creation using Langflow and MCP.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/wired-for-action-langflow-enables-local-ai-agent-creation.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "Top 7 Python Libraries for Large-Scale Data Processing",
+    "url": "https://www.kdnuggets.com/top-7-python-libraries-for-large-scale-data-processing",
+    "site_name": "KDnuggets",
+    "description": "Overview of libraries optimized for high-volume data engineering tasks.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/top-7-python-libraries-for-large-scale-data-processing.md",
+    "tags": [
+      "research",
+      "ai"
+    ]
+  },
+  {
+    "title": "Research on AI/ML Advances (2026)",
+    "url": "https://huggingface.co/papers/2605.27366",
+    "site_name": "Hugging Face",
+    "description": "Recent cutting-edge research in machine learning.",
+    "image": "",
+    "date_published": "2026-01-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/research-on-aiml-advances-2026.md",
+    "tags": [
+      "research",
+      "ai"
+    ]
+  },
+  {
+    "title": "GitButler",
+    "url": "https://gitbutler.com/",
+    "site_name": "GitButler",
+    "description": "A modern Git client designed to simplify complex branch management and workflow efficiency.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/gitbutler.md",
+    "tags": [
+      "tooling",
+      "development"
+    ]
+  },
+  {
+    "title": "Deep-ML Problems",
+    "url": "https://www.deep-ml.com/problems",
+    "site_name": "Deep-ml",
+    "description": "A curated collection of machine learning coding problems for skill sharpening.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/deep-ml-problems.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "Vera",
+    "url": "https://veralang.dev/",
+    "site_name": "Vera",
+    "description": "A specialized development language/environment for AI-native applications.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/vera.md",
+    "tags": [
+      "tooling",
+      "development"
+    ]
+  },
+  {
+    "title": "How Claude Code Builds a System Prompt",
+    "url": "https://www.dbreunig.com/2026/04/04/how-claude-code-builds-a-system-prompt.html",
+    "site_name": "DBreunig",
+    "description": "A technical deep-dive into how agentic coding assistants dynamically construct system prompts.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/how-claude-code-builds-a-system-prompt.md",
+    "tags": [
+      "research",
+      "ai"
+    ]
+  },
+  {
+    "title": "Introducing Ossature",
+    "url": "https://ossature.dev/blog/introducing-ossature/",
+    "site_name": "Ossature",
+    "description": "A new framework for developing robust, scalable AI architectures.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/introducing-ossature.md",
+    "tags": [
+      "tooling",
+      "development"
+    ]
+  },
+  {
+    "title": "LangChain Academy Collections",
+    "url": "https://academy.langchain.com/collections",
+    "site_name": "Langchain",
+    "description": "Structured, hands-on learning paths for orchestrating and managing agentic workflows using the LangChain ecosystem.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/langchain-academy-collections.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "Codex Prompting Guide",
+    "url": "https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide",
+    "site_name": "OpenAI",
+    "description": "Advanced strategies and cookbook examples for prompting code-generation models to improve output quality and accuracy.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/codex-prompting-guide.md",
+    "tags": [
+      "tutorials",
+      "ai"
+    ]
+  },
+  {
+    "title": "Recent Advances in Intelligent Water Infrastructure",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0278612526000889",
+    "site_name": "ScienceDirect",
+    "description": "A contemporary study detailing technological advancements in smart utility infrastructure.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/recent-advances-in-intelligent-water-infrastructure.md",
+    "tags": [
+      "research",
+      "water"
+    ]
+  },
+  {
+    "title": "Advanced Modeling in Agentic Systems (2026)",
+    "url": "https://arxiv.org/pdf/2603.29755",
+    "site_name": "arXiv",
+    "description": "Recent technical exploration of agentic model performance and architecture.",
+    "image": "",
+    "date_published": "2026-01-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/advanced-modeling-in-agentic-systems-2026.md",
+    "tags": [
+      "research",
+      "ai"
+    ]
+  },
+  {
+    "title": "Review of Multi-Agent Intelligent Systems",
+    "url": "https://www.academia.edu/8224528/A_review_paper_on_Multi_agent_base_intelligent_manufacturing_system",
+    "site_name": "Academia",
+    "description": "A review paper on the foundational principles of multi-agent systems and their application in intelligent manufacturing and complex industrial environments.",
+    "image": "",
+    "date_published": "2026-06-01",
+    "date_added": "2026-06-01",
+    "notes_file": "research/review-of-multi-agent-intelligent-systems.md",
+    "tags": [
+      "research",
+      "ai"
+    ]
   }
 ]
