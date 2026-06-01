@@ -57,31 +57,7 @@ of-agents-and-aquifers/
     └── requirements.txt           # Scraper library dependencies
 ```
 
----
 
-## 🚀 Local Development & Scraper Testing
-
-To test the scraping script locally without running it through a GitHub Action:
-
-1. **Set up virtual environment:**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   pip install -r scripts/requirements.txt
-   ```
-
-3. **Run local scrape test:**
-   Create a temporary file `test_issue.txt` with a URL inside, and run:
-   ```bash
-   python scripts/add_article.py test_issue.txt
-   ```
-   This will scrape the URL, generate a markdown file in `research/`, and append it to `docs/data/articles.json`.
-
----
 
 ## ⚖️ License
 
