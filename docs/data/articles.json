@@ -1,5 +1,37 @@
 [
   {
+    "title": "Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering",
+    "url": "https://arxiv.org/abs/2604.08224",
+    "site_name": "arXiv",
+    "description": "A unified review of how LLM agent capabilities are externalized into memory stores, reusable skills, interaction protocols, and harness engineering.",
+    "image": "",
+    "date_published": "2026-04-09",
+    "date_added": "2026-06-08",
+    "notes_file": "research/externalization-in-llm-agents-a-unified-review-of-memory-skills-protocols-and-harness-engineering.md",
+    "tags": [
+      "research",
+      "ai",
+      "agents",
+      "harness-engineering"
+    ]
+  },
+  {
+    "title": "Unify Your Plant-Floor Data with Claude Code and TimescaleDB",
+    "url": "https://hackernoon.com/unify-your-plant-floor-data-with-claude-code-and-timescaledb",
+    "site_name": "HackerNoon",
+    "description": "Learn how Claude Code Agent Teams build and validate a Unified Namespace across Modbus, OPC UA, and MQTT using TimescaleDB and AI-driven governance.",
+    "image": "",
+    "date_published": "2026-06-03",
+    "date_added": "2026-06-08",
+    "notes_file": "research/unify-your-plant-floor-data-with-claude-code-and-timescaledb.md",
+    "tags": [
+      "tutorials",
+      "ai",
+      "industrial-data",
+      "timescaledb"
+    ]
+  },
+  {
     "title": "USGS Active Groundwater Level Network Telemetry Feed",
     "url": "https://waterdata.usgs.gov/nwis/gw",
     "site_name": "USGS",

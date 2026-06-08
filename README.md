@@ -80,6 +80,7 @@ of-agents-and-aquifers/
 - **[Cybersecurity in Water Distribution Networks: A Systematic Review of AI-Based Detection Algorithms (2026)](https://doi.org/10.3390/w18040519)** — *DOI* ([Notes](research/cybersecurity-in-water-distribution-networks-a-systematic-review-of-ai-based-detection-algorithms-2026.md))
 - **[Dialectics for Artificial Intelligence (2025)](https://arxiv.org/abs/2512.17373)** — *arXiv* ([Notes](research/dialectics-for-artificial-intelligence-2025.md))
 - **[Domain-Specific LLMs for Water/Wastewater Utility Applications](https://arxiv.org/html/2505.16120v2)** — *arXiv* ([Notes](research/domain-specific-llms-for-waterwastewater-utility-applications.md))
+- **[Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering](https://arxiv.org/abs/2604.08224)** — *arXiv* ([Notes](research/externalization-in-llm-agents-a-unified-review-of-memory-skills-protocols-and-harness-engineering.md))
 - **[How Claude Code Builds a System Prompt](https://www.dbreunig.com/2026/04/04/how-claude-code-builds-a-system-prompt.html)** — *DBreunig* ([Notes](research/how-claude-code-builds-a-system-prompt.md))
 - **[Large Language Models for Water Distribution Systems Modeling and Decision-Making (2025/2026)](https://arxiv.org/abs/2503.16191)** — *arXiv* ([Notes](research/large-language-models-for-water-distribution-systems-modeling-and-decision-making-20252026.md))
 - **[Leveraging large language models for automating water distribution network optimization](https://pubmed.ncbi.nlm.nih.gov/40945061/)** — *PubMed* ([Notes](research/leveraging-large-language-models-for-automating-water-distribution-network-optimization.md))
@@ -110,6 +111,7 @@ of-agents-and-aquifers/
 - **[OpenAI Academy](https://academy.openai.com/)** — *OpenAI* ([Notes](research/openai-academy.md))
 - **[Run Long-Horizon Tasks with AI Agents](https://developers.openai.com/blog/run-long-horizon-tasks-with-codex)** — *OpenAI* ([Notes](research/run-long-horizon-tasks-with-ai-agents.md))
 - **[Train Small Orchestration Agents to Solve Big Problems](https://developer.nvidia.com/blog/train-small-orchestration-agents-to-solve-big-problems/)** — *NVIDIA* ([Notes](research/train-small-orchestration-agents-to-solve-big-problems.md))
+- **[Unify Your Plant-Floor Data with Claude Code and TimescaleDB](https://hackernoon.com/unify-your-plant-floor-data-with-claude-code-and-timescaledb)** — *HackerNoon* ([Notes](research/unify-your-plant-floor-data-with-claude-code-and-timescaledb.md))
 - **[Wired for Action: Langflow Enables Local AI Agent Creation](https://blogs.nvidia.com/blog/rtx-ai-garage-langflow-agents-remix/)** — *NVIDIA* ([Notes](research/wired-for-action-langflow-enables-local-ai-agent-creation.md))
 
 ### 🛠️ Tooling & Harnesses

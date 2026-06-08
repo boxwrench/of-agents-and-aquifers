@@ -8,6 +8,8 @@ These files are automatically generated when you submit a new link using the aut
 
 | Date Added | Title | Source | Notes File |
 |---|---|---|---|
+| 2026-06-08 | [Unify Your Plant-Floor Data with Claude Code and TimescaleDB](https://hackernoon.com/unify-your-plant-floor-data-with-claude-code-and-timescaledb) | HackerNoon | [unify-your-plant-floor-data-with-claude-code-and-timescaledb.md](unify-your-plant-floor-data-with-claude-code-and-timescaledb.md) |
+| 2026-06-08 | [Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering](https://arxiv.org/abs/2604.08224) | arXiv | [externalization-in-llm-agents-a-unified-review-of-memory-skills-protocols-and-harness-engineering.md](externalization-in-llm-agents-a-unified-review-of-memory-skills-protocols-and-harness-engineering.md) |
 | 2026-06-01 | [tesla_agent: Local Agentic AI for Utilities](https://github.com/boxwrench/tesla_agent) | GitHub | [tesla-agent-local-agentic-ai-for-utilities.md](tesla-agent-local-agentic-ai-for-utilities.md) |
 | 2026-06-01 | [aiWATERS (Virginia Tech)](https://vtechworks.lib.vt.edu/items/1eb809d6-947b-4e08-b91e-039380737f95) | Virginia Tech | [aiwaters-virginia-tech.md](aiwaters-virginia-tech.md) |
 | 2026-06-01 | [Wired for Action: Langflow Enables Local AI Agent Creation](https://blogs.nvidia.com/blog/rtx-ai-garage-langflow-agents-remix/) | NVIDIA | [wired-for-action-langflow-enables-local-ai-agent-creation.md](wired-for-action-langflow-enables-local-ai-agent-creation.md) |
